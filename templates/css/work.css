@@ -1,0 +1,115 @@
+#wrapper {
+    min-height: calc(100vh - 174px);
+}
+
+#work-header {
+    color: #f8f8f8;
+    background: #242424;
+}
+
+#work-header h1 {
+    font-size: 70px;
+    text-align: center;
+    padding: 70px 0 50px;
+    margin: 0;
+}
+
+#work-header p {
+    text-align: center;
+    max-width: 430px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+    line-height: 19px;
+    font-size: 17px;
+}
+
+img {
+    width: 600px;
+    box-shadow: 0 1px 6px #000000d6;
+}
+
+.work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.work h2 {
+    letter-spacing: 1px;
+}
+
+.work p {
+    text-align: center;
+    margin: 0 0 20px;
+}
+
+.site-url-wrapper {
+    width: 100%;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.site-url-wrapper a {
+    padding: 20px;
+}
+
+.site-url-wrapper button {
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #3f4e97;
+    font-family: 'Karla', Arial, Helvetica, sans-serif, Georgia, serif;
+    padding: 15px;
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+
+.site-url-wrapper a button:hover {
+    transform: scale(1.2);
+}
+
+/*Inventory*/
+#inventory {
+    background: #3f4e97;
+    color: #ffffff;
+}
+
+#inventory p {
+    max-width: 490px;
+}
+
+#inventory button {
+    background: #2e3766;
+}
+/*Inventory*/
+
+/*Resource*/
+#resource {
+    background: #f76160;
+    color: #fff2f2;
+}
+
+#resource p {
+    max-width: 500px;
+}
+
+#resource button {
+    background: #b93b3b;
+}
+/*Resource*/
+
+/*Attendance*/
+#attendance {
+    background: #514896;
+    color: #ffffff;
+}
+
+#attendance p {
+    max-width: 530px;
+}
+
+#attendance button {
+    background: #5e25b1;
+}
+/*Attendance*/

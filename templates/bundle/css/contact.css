@@ -1,0 +1,210 @@
+/* Mobile Styles */
+@media only screen and (max-width: 420px) {
+    #header-wrapper {
+        -webkit-transform: scale(0.6);
+            -ms-transform: scale(0.6);
+                transform: scale(0.6);
+        -webkit-transition: -webkit-transform ease 0.5s;
+        transition: -webkit-transform ease 0.5s;
+        -o-transition: transform ease 0.5s;
+        transition: transform ease 0.5s;
+        transition: transform ease 0.5s, -webkit-transform ease 0.5s;
+        width: 100%;
+        padding: 0;
+    }
+
+    main {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    #message-submit {
+        margin: 0 auto;
+    }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 421px) and (max-width: 960px) {
+    main {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    #message-submit {
+        margin: 0 auto;
+    }
+}
+
+h2 {
+    font-family: 'Karla', Arial, Helvetica, sans-serif, Georgia, serif;
+    margin: 10px 0;
+    font-size: 27px;
+    cursor: default;
+}
+
+input {
+    font-family: 'Karla', Arial, Helvetica, sans-serif, Georgia, serif;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 7px 2px;
+    color: white;
+    border-bottom: 1.5px #e7e7e7 solid;
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    color: #efefef;
+    margin-bottom: 7px;
+}
+
+textarea {
+    resize: none;
+    outline: none;
+    width: 98%;
+    height: 90px;
+    font-family: 'Karla', Arial, Helvetica, sans-serif, Georgia, serif;
+    border-radius: 1px;
+}
+
+button {
+    border: 1px #515151 solid;
+    outline: none;
+    color: white;
+    background-color: #13a113;
+    padding: 10px;
+    border-radius: 4px;
+    margin-left: auto;
+    display: block;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+    font-family: 'Karla', Arial, Helvetica, sans-serif, Georgia, serif;
+    color: #efefef;
+    font-weight: bold;
+}
+
+#body-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 30px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    min-height: calc(100vh - 100px);
+
+}
+
+#connected-wrapper {
+    margin: 50px 0;
+    height: 150px;
+}
+
+#address-wrapper {
+    font-size: 18px;
+}
+
+.connect-icon {
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+    font-size: 40px;
+}
+
+.connect-icon:hover {
+    font-size: 45px;
+}
+
+#right-wrapper {
+    /*display: none;*/
+}
+
+#phone-number {
+    font-size: 21px;
+}
+
+#left-connect, #right-connect {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+}
+
+#left-connect {
+    margin-bottom: 20px;
+    height: 38px;
+}
+
+#facebook {
+    color: #4267b2;
+    position: absolute;
+    top: -6px;
+}
+
+#linkedin {
+    color: #0077B5;
+    position: absolute;
+    top: -6px;
+}
+
+#twitter {
+    color: #1da1f2;
+}
+
+#yelp {
+    color: #af0606;
+}
+
+#facebook-cover, #linkedin-cover {
+    background: #fff;
+    height: 33px;
+    border-radius: 5px;
+    position: relative;
+    width: 35px;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+#facebook-cover:hover, #linkedin-cover:hover {
+    height: 38px;
+}
+
+#company-input {
+    width: 100%;
+}
+
+#message-sent {
+    text-align: center;
+    color: #7cdd7c;
+}
+
+#message-details {
+    cursor: default;
+}
+
+.error {
+    display: none;
+    color: #ff7878;
+    font-size: 12px;
+    padding-bottom: 4px;
+}

@@ -1,0 +1,133 @@
+<div id="work-header-wrapper">
+    <div>
+        <h1>{{header.title1}}</h1>
+        <h4>{{header.title2}}</h4>
+    </div>
+</div>
+
+<div id="business-wrapper">
+    <p>{{business.description}}</p>
+    <div id="technology-wrapper">
+        <div>
+            <h3>Web Framework</h3>
+            <p>Django</p>
+        </div>
+        <div>
+            <h3>Notable Features</h3>
+            <p>{{header.features}}</p>
+        </div>
+        <div>
+            <h3>Technologies</h3>
+            <p>Python, Javascript, CSS3, HTML5</p>
+        </div>
+    </div>
+
+    <!--Desktop-->
+    <div id="monitor">
+        <div class="camera"></div>
+        <div id="monitor-browser">
+            <div id="browser-header">
+                <ul class="buttons">
+                    <li></li><li></li><li></li>
+                </ul>
+                <span class="url"></span>
+            </div>
+            <div id="browser-body">
+                <img src="{{concat '/templates/bundle/assets/work/' business.image}}" />
+            </div>
+        </div>
+        <div class="power"></div>
+        <div id="stand"></div>
+        <div id="stand-footer">
+            <div id="left-corner"></div>
+            <div id="footer-body"></div>
+            <div id="right-corner"></div>
+        </div>
+    </div>
+    <!--Desktop-->
+</div>
+
+<div id="problem-wrapper">
+    <h2>Problem</h2>
+    {{#each problem}}
+        <p>{{this.description}}</p>
+        {{#if this.image}}
+            <!--Browser-->
+            <div class="browser">
+                <div id="monitor-browser">
+                    <div id="browser-header">
+                        <ul class="buttons">
+                            <li></li><li></li><li></li>
+                        </ul>
+                        <span class="url"></span>
+                    </div>
+                    <div id="browser-body">
+                        <img src="{{concat '/templates/bundle/assets/work/' this.image}}" />
+                    </div>
+                </div>
+            </div>
+            <!--Browser-->
+        {{/if}}
+    {{/each}}
+
+</div>
+
+<div id="solution-wrapper">
+    <h2>Solution</h2>
+    {{#each solution}}
+        <p>{{this.description}}</p>
+        {{#if this.image}}
+            <!--Laptop-->
+            <div id="laptop">
+                <div class="camera"></div>
+                <div id="monitor-browser">
+                    <div id="browser-header">
+                        <ul class="buttons">
+                            <li></li><li></li><li></li>
+                        </ul>
+                        <span class="url"></span>
+                    </div>
+                    <div id="browser-body">
+                        <img src="{{concat '/templates/bundle/assets/work/' this.image}}" />
+                    </div>
+                </div>
+                <div id="laptop-keyboard">
+                    <span id="clamp"></span>
+                </div>
+            </div>
+            <!--Laptop-->
+        {{/if}}
+    {{/each}}
+</div>
+
+<div id="slider-wrapper">
+    <div id="slider-container">
+        <span id="left-arrow"><</span>
+        <div>
+            {{#each extra}}
+                <div class="browser slide" id="{{#ifCond @key '<' 4}}s{{@key}}{{/ifCond}}">
+                    <div id="monitor-browser">
+                        <div id="browser-header">
+                            <ul class="buttons">
+                                <li></li><li></li><li></li>
+                            </ul>
+                            <span class="url"></span>
+                        </div>
+                        <div id="browser-body">
+                            <img src="{{concat '/templates/bundle/assets/work/' this}}" />
+                        </div>
+                    </div>
+                </div>
+            {{/each}}
+        </div>
+        <span id="right-arrow">></span>
+    </div>
+</div>
+
+<div id="site-url-wrapper">
+
+    <a id="site-link" href="{{url}}" target="_blank">
+        <button style="background: {{color}}">Launch Site</button>
+    </a>
+</div>
+

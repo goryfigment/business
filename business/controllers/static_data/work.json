@@ -1,0 +1,142 @@
+{
+  "inventory": {
+    "title_name": "Inventory MGT & POS System",
+    "header": {
+      "title1": "Tire Business",
+      "title2": "Inventory MGT & POS System",
+      "features": "Customizable inventory, Real-time tracking, User management, Transaction history, Capable of printing receipts"
+    },
+    "business": {
+        "description": "A small family owned tire business in dedicated to providing consumers the best prices and variety on tires, wheels, and the corresponding services which accompany such products.",
+        "image": "inventory/home.png"
+    },
+    "problem": [
+      {
+        "description": "This tire business was operating utilizing old-fashioned equipment to manage its inventory and complete its customers purchases; such as notebook logs for its inventory and receipt books for completing transactions.",
+        "image": "inventory/login.png"
+      },
+      {
+        "description": "Unfortunately, this method created a lot of work to maintain calculations, update logs, complete transactions, etc."
+      }
+    ],
+    "solution": [
+      {
+        "description": "The solution to minimize work was to digitize inventory and consumer operations. A fully-customized database was created to maintain full control of all the inventory at the business as well as monitor/update said inventory in real-time from wherever a computer or mobile device could be accessed.",
+        "image": "inventory/inventory.png"
+      },
+      {
+        "description": "In addition to this, a Point-Of-Sale system was also implemented to more readily streamline the consumer experience and complete transactions amongst other operations."
+      }
+    ],
+    "extra": ["inventory/receipt.png", "inventory/overview.png", "inventory/transaction.png", "inventory/transactions.png"],
+    "url": "https://solinventorydemo.pythonanywhere.com/",
+    "code": "https://github.com/goryfigment/whey2ez",
+    "color": "#3f4e97"
+  },
+  "resource-mgt": {
+    "title_name": "Resource Management",
+    "header": {
+      "title1": "Resource Management",
+      "title2": "Non-Profit Organization",
+      "features": "Upload files, User management, Save other resources, Custom word document generator"
+    },
+    "business": {
+      "description": "A non-profit organization dedicated to empowering adults in Maricopa County, AZ. They provided Adult Education English and GED classes as well as other services to their community.",
+      "image": "resource/filesave.png"
+    },
+    "problem": [
+      {
+        "description": "This non-profit organization had a plethora of resources which it utilized to provide its education services. All resources were split amongst instructors and were also different based on location.",
+        "image": "resource/dashboard2.png"
+      },
+      {
+        "description": "They wanted a way to consolidate all resources into one place and make them readily available to everyone."
+      }
+    ],
+    "solution": [
+      {
+        "description": "The solution was to create a custom online database which could store all of the organizations resources and could be accessed from wherever the instructors were located. Various specifications were made by the director so that the database could meet their very specific needs and it could be exclusively tailored to them.",
+        "image": "resource/worddoc.png"
+      },
+      {
+        "description": "In order to facilitate the process in the future for the users, a custom word document generator was created to be able to create resources and other documents directly inside the database and automatically store them once they were completed."
+      }
+    ],
+    "extra": ["resource/login.png", "resource/reflection.png", "resource/home.png", "resource/dragndrop.png"],
+    "code": "https://github.com/goryfigment/miniproject",
+    "url": "https://sollvmcdemo.pythonanywhere.com/",
+    "color": "#be5251"
+  },
+  "rise-up-gamers": {
+    "title_name": "Rise Up Gamers",
+    "header": {
+      "title1": "Rise Up Gamers",
+      "title2": "Affiliate",
+      "image": "riseupgamers/riseupgamers.png"
+    },
+    "business": {
+      "description": "Rise Up Gamers is an affiliate website which focuses on being a one-stop-shop for video game enthusiasts. Rise Up Gamers provides consumers with a wide-selection of vendors for each individual item giving them the opportunity to compare prices and choose the vendor they deem to be the best option all in one place."
+    },
+    "problem": {
+      "description": "A pair of entrepenuers came up with the business idea of creating their very own custom affiliate website to specifically target the video game market niche. Eager to implement their idea, they created a strategic business plan and employed Whey2ez LLC for the creation of their website.",
+      "image": "insert.png"
+    },
+    "solution": {
+      "description": "Whey2ez LLC came forward and created a fully-customized website tailored to the exact design specifications of the Rise Up Gamers entrepreneurs.\n\nThe website, aside from having standard merchandise category break downs, each listing was fitted with a description of the item being sold, links to reviews, as well as a selection of vendors from which the consumer could choose from. Being able to see multiple vendors in one place, reviews, trailers and other features gave consumers a literal one-stop-shop experience for their gaming needs.",
+      "image": "insert.png"
+    }
+  },
+  "jessies-tires": {
+    "title_name": "B2C Website",
+    "header": {
+      "title1": "Jessie's Tires Service",
+      "title2": "B2C Website",
+      "image": "inventory/jessies_tires_logo.png"
+    },
+    "business": {
+      "description": "Jessie's Tires Service is a small family owned tire business in Blythe, California dedicated to providing consumers the best prices and variety on tires, wheels, and the corresponding services which accompany such products."
+    },
+    "problem": {
+      "description": "After having implemented and utilized an inventory management database and Point of Sale system for a couple years, Jessie's Tires saw that the impact of the internet and technology was not slowing down. These two factors are greatly impacting how consumers shop and search for their merchandise. Without the presence of their very own webpage, Jessie's Tires was falling behind their competition.",
+      "image": "insert.png"
+    },
+    "solution": {
+      "description": "Whey2ez LLC was once again asked to help in the tire business' new phase. For this task Whey2ez created a fully-customized website to provide consumers with a digital version of the products and services offered at Jessie's Tires physical location.\n\nAside from this, the website also provides visitors with valuable content and encourages conversions for prospective customers.  In an effort to facilitate business and consumer interaction, online consumer ordering and a customized contact page were created. Being able to target a new market area, the online tire market, gave Jessie's Tires the push it needed to continue moving forward in the fast paced tire industry while not only making the existing customer experience easier but also attracting new customers through the simplicity and ease of their website as well as the quality of the products and services which they provide.",
+      "image": "insert.png"
+    }
+  },
+  "attendance": {
+    "title_name": "Attendance",
+    "header": {
+      "title1": "Attendance",
+      "title2": "Non-Profit Organization",
+      "features": "Record attendance, Create students, Edit history"
+    },
+    "business": {
+      "description": "A non-profit organization dedicated to providing a variety of services to adults and families in Phoenix, AZ and the surrounding area.",
+      "image": "attendance/home.png"
+    },
+    "problem": [
+      {
+        "description": "One of the services offered by this organization was an after school program for children.",
+        "image": "attendance/dashboard.png"
+      },
+      {
+        "description": "The sign-in and log books were utilized to keep track of the attendance records of the program. In addition to this, calculations and reports were also manually produced."
+      }
+    ],
+    "solution": [
+      {
+        "description": "The solution was to create an autonomous attendance application which could log each individual student digitally.",
+        "image": "attendance/adding-students.png"
+      },
+      {
+        "description": "The application also generated the specific reports and calculations which the program required."
+      }
+    ],
+    "extra": ["attendance/empty.png", "attendance/class.png", "attendance/login.png", "attendance/calendar.png"],
+    "code": "https://github.com/goryfigment/attendance",
+    "url": "https://solattendancedemo.pythonanywhere.com/",
+    "color": "#514896"
+  }
+}
