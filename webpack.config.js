@@ -15,7 +15,8 @@ module.exports = {
         home: './templates/js/home.js',
         contact: './templates/js/contact.js',
         work: './templates/js/work.js',
-        privacy_policy: './templates/js/privacy_policy.js'
+        privacy_policy: './templates/js/privacy_policy.js',
+        work_page: './templates/js/work_page.js'
     },
     output: {path: __dirname + '/templates/bundle', filename: 'js/[name].js', publicPath: '/templates/bundle/'},
     module: {
