@@ -50,7 +50,7 @@
 }
 
 #top-button {
-    opacity: 0;
+    display: none;
     z-index: 2;
     position: fixed;
     right: 17px;
@@ -241,8 +241,8 @@ img {
 
 /*Resource*/
 #resource {
-    background: #f76160;
-    color: #fff2f2;
+    background: #9e3535;
+    color: #ffffff;
 }
 
 #resource p {

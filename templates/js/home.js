@@ -26,10 +26,10 @@ $(document).ready(function() {
 
     $(window).bind('scroll', function() {
          if ($(window).scrollTop() > 500) {
-             $('#top-button').css('opacity', 1);
+             $('#top-button').show();
          }
          else {
-             $('#top-button').css('opacity', 0);
+             $('#top-button').hide();
          }
     });
 });
